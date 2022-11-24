@@ -104,7 +104,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between; }
     .main .trabajos .contenedor-trabajos .trabajo {
-      width: 23%;
+      width: 30%;
       margin-bottom: 40px; }
       .main .trabajos .contenedor-trabajos .trabajo .thumb {
         width: 100%;
@@ -117,11 +117,17 @@ header {
         text-align: center; }
         .main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre {
           font-weight: 700;
-          color: #3895ea;
-          margin-bottom: 10px; }
-        .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
+          color: #3895ea;}
+        .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria,
+        .main .trabajos .contenedor-trabajos .trabajo .descripcion .tecnologies
+         {
           font-size: 14px;
           color: #636363; }
+        
+          .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria {
+            font-size: 14px;
+            font-weight: bold;
+          }
 
 /* ----- ----- FOOTER ----- ----- */
 footer .contacto {
@@ -180,16 +186,10 @@ footer .redes-sociales {
       display: block;
       margin: 0 20px;
       border-radius: 3px; }
-    footer .redes-sociales .contenedor .twitter:hover {
-      background: #55acee; }
-    footer .redes-sociales .contenedor .facebook:hover {
+    footer .redes-sociales .contenedor .linkedin:hover {
       background: #3b5998; }
-    footer .redes-sociales .contenedor .youtube:hover {
-      background: #cd201f; }
     footer .redes-sociales .contenedor .github:hover {
       background: #666666; }
-    footer .redes-sociales .contenedor .instagram:hover {
-      background: #3f729b; }
 
 /* ----- ----- MEDIA QUERIES ----- ----- */
 @media screen and (max-width: 800px) {
