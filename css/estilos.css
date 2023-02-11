@@ -103,9 +103,12 @@ header {
     flex-direction: rows;
     flex-wrap: wrap;
     justify-content: space-between; }
+    
     .main .trabajos .contenedor-trabajos .trabajo {
       width: 30%;
       margin-bottom: 40px; }
+    .main .trabajos .contenedor-trabajos .trabajo:last-child {
+      margin: 0 auto; }
       .main .trabajos .contenedor-trabajos .trabajo .thumb {
         width: 100%;
         margin-bottom: 10px; }
